@@ -29,6 +29,10 @@ test:
   imports:
     - cma
     - cma.utilities
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/CMA-ES/pycma
@@ -36,7 +40,7 @@ about:
   license_family: BSD
   license_file: LICENSE
   summary: CMA-ES, Covariance Matrix Adaptation Evolution Strategy for non-linear numerical optimization in Python
-  doc_url: http://cma.gforge.inria.fr/apidocs-pycma/
+  doc_url: https://cma-es.github.io/apidocs-pycma/
   dev_url: https://github.com/CMA-ES/pycma
   description: |
     The Covariance Matrix Adaptation Evolution Strategy (CMA-ES) is a stochastic derivative-free numerical 

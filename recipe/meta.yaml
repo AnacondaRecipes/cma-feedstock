@@ -30,6 +30,7 @@ test:
     - cma.utilities
   commands:
     - pip check
+    - python -m cma.test -h
   requires:
     - pip
 
